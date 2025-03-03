@@ -19,4 +19,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Code\Chapter2\questions2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Chapter2\exercises2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
