@@ -3,7 +3,7 @@
 
 int main()
 {
-	std::cout << "Hello, world! \n";
+	exercises2::ex1();
 
 	return 0;
 }
