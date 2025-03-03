@@ -22,10 +22,10 @@
     <ClCompile Include="Code\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Code\Chapter2\questions2.txt" />
+    <Text Include="Code\chapter2\questions2.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Code\Chapter2\exercises2.h" />
+    <ClInclude Include="Code\chapter2\exercises2.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
