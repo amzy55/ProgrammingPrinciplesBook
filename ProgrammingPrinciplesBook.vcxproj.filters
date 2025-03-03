@@ -30,5 +30,11 @@
     <ClInclude Include="Code\std_lib_facilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Code\extra\extra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Code\the_more_you_know.md" />
   </ItemGroup>
 </Project>

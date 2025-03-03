@@ -27,7 +27,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\chapter2\exercises2.h" />
+    <ClInclude Include="Code\extra\extra.h" />
     <ClInclude Include="Code\std_lib_facilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Code\the_more_you_know.md">
+      <SubType>
+      </SubType>
+    </None>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

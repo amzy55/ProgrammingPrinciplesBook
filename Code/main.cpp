@@ -1,9 +1,10 @@
 #include <iostream>
 #include "chapter2/exercises2.h"
+#include "extra/extra.h"
 
 int main()
 {
-	exercises2::ex1();
+	extra::specialCharacters();
 
 	return 0;
 }
