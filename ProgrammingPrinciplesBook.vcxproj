@@ -22,18 +22,12 @@
     <ClCompile Include="Code\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Code\chapter2\questions2.txt" />
-    <Text Include="Code\chapter2\terms.txt" />
+    <Text Include="Code\chapter2\questions2.md" />
+    <Text Include="Code\chapter2\terms.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\chapter2\exercises2.h" />
     <ClInclude Include="Code\std_lib_facilities.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Code\chapter2\file.md">
-      <SubType>
-      </SubType>
-    </None>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
