@@ -5,7 +5,7 @@
 
 int main()
 {
-	ex3::findRepeatedWords();
+	ex3::intToCharDoesNotGiveWarning();
 
 	return 0;
 }

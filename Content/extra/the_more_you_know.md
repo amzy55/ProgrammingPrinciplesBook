@@ -23,7 +23,7 @@ cout << "something took " << duration_cast<milliseconds>(d).count() << "ms";
 - It is always safe to convert a smaller size type to a bigger size type, like `int` to `double`.
  However, `float` can only hold 6-7 digits accurately (because of its internal structure),
  so if we want to convert a 9 digit `int` to a `float` the resulting value will not be accurate.
- Converting to a smaller type will lead to data loss.
+ Converting to a smaller type will lead to data loss (truncation or overflow).
 
 - `float` internal structure:
 

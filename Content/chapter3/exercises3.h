@@ -20,4 +20,21 @@ namespace ex3
 			previous = current;
 		}
 	}
+
+	void intToCharDoesNotGiveWarning()
+	{
+		int a = 20000;
+		char c = a; // try to squeeze a large int into a small char
+		int b = c;
+
+		if (a != b)
+		{
+			std::cout << "Oops!: " << a << " != " << b << '\n';
+		}
+		else
+		{
+			std::cout << "Wow! We have large characters!\n";
+		}
+	}
+	
 }
