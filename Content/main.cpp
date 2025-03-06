@@ -5,7 +5,7 @@
 
 int main()
 {
-	ex3::unsafeConversions();
+	ex3::drillLetter();
 
 	return 0;
 }

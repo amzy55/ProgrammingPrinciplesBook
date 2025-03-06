@@ -52,4 +52,60 @@ namespace ex3
 			          << " | char("  << c << ")\n\n"; // the char
 		}
 	}	
+
+	void drillLetter()
+	{
+		std::cout << "Enter the name of the person you want to write to (followed by 'enter'):\n";
+		std::string firstName;
+		std::cin >> firstName;
+		std::cout << "Dear " << firstName << ",\n\n";
+		std::cout << "How are you? I am fine. I miss you. We haven't talked in so long.\n";
+
+		std::cout << "\nEnter the name of a friend (followed by 'enter'):\n";
+		std::string friendName;
+		std::cin >> friendName;
+		std::cout << "Have you seen " << friendName << " lately?\n";
+		std::cout << "\nEnter the sex of the friend - 'm' for male or 'f' for female (followed by 'enter'):\n";
+
+		char friendSex{ 0 };
+		std::cin >> friendSex;
+		if (friendSex == 'f')
+		{
+			std::cout << "She died.\n";
+		}
+		else if (friendSex == 'm')
+		{
+			std::cout << "He died.\n";
+		}
+		else
+		{
+			std::cout << "They died.\n";
+		}
+		std::cout << "\nEnter the age of the recepient (followed by 'enter'):\n";
+
+		int age{ 0 };
+		std::cin >> age;
+		if (age <= 0 || age >= 110)
+		{
+			std::cerr << "error: " << "no kidding!" << '\n';
+			exit(1);
+		}
+		if (age == 17)
+		{
+			std::cout << "Next year you'll be able to vote!\n";
+		}
+		else if (age > 70)
+		{
+			std::cout << "I hope you are enjoying retirement.\n";
+		}
+		else
+		{
+			std::cout << "Next year you will be " << age + 1 << ".\n";
+		}
+
+		std::cout << "\nEnter you name (followed by 'enter'):\n";
+		std::string yourName;
+		std::cin >> yourName;
+		std::cout << "Yours sincerely,\n" << yourName << ".\n";
+	}
 }
