@@ -23,15 +23,16 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Code\chapter2\questions2.md" />
-    <Text Include="Code\chapter2\terms.md" />
+    <Text Include="Code\chapter2\terms3.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\chapter2\exercises2.h" />
+    <ClInclude Include="Code\chapter3\exercises3.h" />
     <ClInclude Include="Code\extra\extra.h" />
     <ClInclude Include="Code\std_lib_facilities.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Code\the_more_you_know.md">
+    <None Include="Code\extra\the_more_you_know.md">
       <SubType>
       </SubType>
     </None>
