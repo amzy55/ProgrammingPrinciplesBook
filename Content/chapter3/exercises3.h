@@ -36,5 +36,20 @@ namespace ex3
 			std::cout << "Wow! We have large characters!\n";
 		}
 	}
-	
+
+	void unsafeConversions()
+	{
+		double d = 0;
+		while (std::cin >> d) 
+		{
+			int i = static_cast<int>(d);              // try to squeeze a double into an int
+			char c = i;                               // try to squeeze an int into a char
+			int ic = c;                               // get the integer value of the character
+
+			std::cout << "d == "     << d             // the original double
+			          << " | i == "  << i             // converted to int
+			          << " | ic == " << ic            // int value of char
+			          << " | char("  << c << ")\n\n"; // the char
+		}
+	}	
 }

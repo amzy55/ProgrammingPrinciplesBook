@@ -58,3 +58,15 @@ Binary:   0001100110011001100110011001100110011... (repeates infinitely) <br>
 Mantissa: 00011001100110011001100 (23 bits)
 
 So `0.1` is only stored as an approximation.
+
+- Assigning an `int` to a `char` is allowed by the compiler and will not even give a warning, but initializing a `char` with an `int` will give an error.
+Even initializing with `=` is allowed, and only `{}` will give an error.
+*This is all with warning level 3. From 4 it does give warnings.*
+
+Example:
+```c++
+
+	int a = 1000;
+	char b1 = a;  // allowed, no warnings or **errors** (W3)
+	char b2{ a }; // error C2397: conversion from 'int' to 'char' requires a narrowing conversion
+```

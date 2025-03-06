@@ -5,7 +5,7 @@
 
 int main()
 {
-	ex3::intToCharDoesNotGiveWarning();
+	ex3::unsafeConversions();
 
 	return 0;
 }
