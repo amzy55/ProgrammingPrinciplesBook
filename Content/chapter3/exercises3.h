@@ -81,7 +81,7 @@ namespace ex3
 		{
 			std::cout << "They died.\n";
 		}
-		std::cout << "\nEnter the age of the recepient (followed by 'enter'):\n";
+		std::cout << "\nEnter the age of the recipient (followed by 'enter'):\n";
 
 		int age{ 0 };
 		std::cin >> age;
