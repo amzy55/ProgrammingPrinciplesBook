@@ -5,7 +5,7 @@
 
 int main()
 {
-	ex3::drillLetter();
+	ex3::ex6();
 
 	return 0;
 }
