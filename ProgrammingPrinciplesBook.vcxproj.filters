@@ -39,5 +39,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\extra\the_more_you_know.md" />
+    <None Include="Content\chapter3\questions3.md" />
   </ItemGroup>
 </Project>

@@ -32,6 +32,10 @@
     <ClInclude Include="Content\std_lib_facilities.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Content\chapter3\questions3.md">
+      <SubType>
+      </SubType>
+    </None>
     <None Include="Content\extra\the_more_you_know.md">
       <SubType>
       </SubType>
