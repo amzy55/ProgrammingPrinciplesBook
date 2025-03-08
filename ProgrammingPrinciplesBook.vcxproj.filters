@@ -21,7 +21,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Content\chapter2\questions2.md" />
-    <Text Include="Content\chapter2\terms3.md" />
+    <Text Include="Content\chapter2\terms2.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Content\chapter2\exercises2.h">
@@ -40,5 +40,6 @@
   <ItemGroup>
     <None Include="Content\extra\the_more_you_know.md" />
     <None Include="Content\chapter3\questions3.md" />
+    <None Include="Content\chapter3\terms3.md" />
   </ItemGroup>
 </Project>

@@ -23,7 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Content\chapter2\questions2.md" />
-    <Text Include="Content\chapter2\terms3.md" />
+    <Text Include="Content\chapter2\terms2.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Content\chapter2\exercises2.h" />
@@ -33,6 +33,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\chapter3\questions3.md">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Content\chapter3\terms3.md">
       <SubType>
       </SubType>
     </None>
