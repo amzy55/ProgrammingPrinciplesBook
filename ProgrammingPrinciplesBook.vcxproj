@@ -41,6 +41,14 @@
       <SubType>
       </SubType>
     </None>
+    <None Include="Content\chapter4\questions4.md">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Content\chapter4\terms4.md">
+      <SubType>
+      </SubType>
+    </None>
     <None Include="Content\extra\the_more_you_know.md">
       <SubType>
       </SubType>

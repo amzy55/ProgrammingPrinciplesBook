@@ -44,5 +44,7 @@
     <None Include="Content\extra\the_more_you_know.md" />
     <None Include="Content\chapter3\questions3.md" />
     <None Include="Content\chapter3\terms3.md" />
+    <None Include="Content\chapter4\questions4.md" />
+    <None Include="Content\chapter4\terms4.md" />
   </ItemGroup>
 </Project>
