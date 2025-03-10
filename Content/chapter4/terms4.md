@@ -28,9 +28,6 @@
 ### range-for-statement
 
 
-### Exercises
-
-
 ### repetition
 
 
@@ -73,7 +70,7 @@
 ### lvalue
 
 
-### member **function**
+### member function
 
 
 ### output
