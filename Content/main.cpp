@@ -6,7 +6,7 @@
 
 int main()
 {
-	ex4::drillFinished();
+	ex4::ex18();
 
 	return 0;
 }
