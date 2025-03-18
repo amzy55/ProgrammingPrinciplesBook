@@ -46,42 +46,48 @@ When there are multiple options a variable can take and we want different behavi
 Case checking only works with integer constant expression. The programmer can often forget to call `break;` in a case, or forgets to add a 'default;` case.
  
 16. ### What is the function of each part of the header line in a for-loop, and in what sequence are they executed?
- 
+Example: `for (int i = 0; i < num; i++)` 
+1. Initialization
+2. Condition for the loop to end
+3. Performs an execution
  
 17. ### When should the for-loop be used and when should the while-loop be used?
- 
+For loop if we know the number of steps, while loop otherwise
  
 18. ### How do you print the numeric value of a char?
- 
+```char myChar = 'a'; cout << static_cast<int>(myChar);```
+or
+```std::cout << int('a');```
  
 19. ### Describe what the line char foo(int x) means in a function definition.
- 
+The function `foo` returns a `char` and takes an `int` as a parameter.
  
 20. ### When should you define a separate function for part of a program? List reasons.
- 
+To keep code organized and ideally with single responsibilities.
  
 21. ### What can you do to an int that you cannot do to a string?
- 
+A lot of things - use the `-` operator and a lot of other math operators.
  
 22. ### What can you do to a string that you cannot do to an int?
- 
+Use the `[]` operator and other functions that only make sense for strings like `size()`.
  
 23. ### What is the index of the third element of a vector?
- 
+2
  
 24. ### How do you write a for-loop that prints every element of a vector?
- 
+```for (auto& e : vector) { cout << e << ' '; }```
  
 25. ### What does vector<char> alphabet(26); do?
- 
+Allocates space in the vector for 26 `char`s which in this case is 26 bytes.
  
 26. ### Describe what push_back() does to a vector.
- 
+Add a new element to the vector. If the capacity of the vector is reached then the vector will resize (to twice the capacity).
  
 27. ### What does vector’s member size() do?
- 
+Return how many elements it holds.
  
 28. ### What makes vector so popular/useful?
- 
+Contiguous memory allocation, dynamic size, O(1) random access.
  
 29. ### How do you sort the elements of a vector?
+`sort(v.begin(), v.end()); // in the <algorithm> header`
