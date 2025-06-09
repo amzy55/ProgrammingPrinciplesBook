@@ -7,7 +7,8 @@
 
 int main()
 {
-	ex5::out_of_range();
+	//string result = ex5::drill() ? "Success" : "Fail";
+	ex5::drill();
 
 	return 0;
 }
