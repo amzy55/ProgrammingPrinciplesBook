@@ -7,8 +7,7 @@
 
 int main()
 {
-	//string result = ex5::drill() ? "Success" : "Fail";
-	ex5::drill();
+	ex5::exercise1to4();
 
 	return 0;
 }

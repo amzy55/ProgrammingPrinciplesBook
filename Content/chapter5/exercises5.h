@@ -158,4 +158,29 @@ namespace ex5
 		}
 		return true;
 	}
+
+	double ctok(double c) // converts Celsius to Kelvin
+	{
+		if (c < -273.15)
+		{
+			cout << "Temperatures cannot go below absolute O Kelvin. Please input a number higher than -273.15 Celsius.\n";
+			return 0.0;
+		}
+		double k = c + 273.15;
+		return k;
+	}
+
+	void exercise1to4()
+	{
+		cout << "Input a temperature in Celsius to convert it to Kelvin: \n";
+		double c = 0; // declare input variable
+		cin >> c; // retrieve temperature to input variable
+		//while (c < -273.15)
+		//{
+		//	cout << "Temperatures cannot go below absolute O Kelvin. Please input a number higher than -273.15 Celsius.\n";
+		//	cin >> c;
+		//}
+		double k = ctok(c); // convert temperature
+		cout << k << '\n'; // print out temperature
+	}
 }
