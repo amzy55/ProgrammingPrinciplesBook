@@ -30,6 +30,7 @@
     <ClInclude Include="Content\chapter3\exercises3.h" />
     <ClInclude Include="Content\chapter4\exercises4.h" />
     <ClInclude Include="Content\chapter5\exercises5.h" />
+    <ClInclude Include="Content\chapter6\exercises6.h" />
     <ClInclude Include="Content\extra\extra.h" />
     <ClInclude Include="Content\std_lib_facilities.h" />
   </ItemGroup>

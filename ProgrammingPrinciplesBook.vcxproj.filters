@@ -42,6 +42,9 @@
     <ClInclude Include="Content\chapter5\exercises5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Content\chapter6\exercises6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\extra\the_more_you_know.md" />
