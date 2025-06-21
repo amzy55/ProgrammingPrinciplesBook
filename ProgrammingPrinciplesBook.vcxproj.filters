@@ -53,5 +53,6 @@
     <None Include="Content\chapter4\questions4.md" />
     <None Include="Content\chapter4\terms4.md" />
     <None Include="Content\chapter5\questions5.md" />
+    <None Include="Content\chapter6\questions6.md" />
   </ItemGroup>
 </Project>
