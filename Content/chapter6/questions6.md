@@ -31,7 +31,6 @@ To verify correctness and catch bugs before deployment.
 - Number = floating-point-literal
  
  ### 10. In the chapter, an input was broken down into its component Terms, Expressions, Primaries, and Numbers. Do this for (17+4)/(5–1).
- (17+4)/(5–1): Expression → Term → Primary → (Expression → Term+Term → Number+Number), then divide by another similar expression.
  - 17+4 -> Number+Number -> Primary+Primary -> Term+Term -> Expression+Term -> Expression
  - (17+4) -> (Expression) -> Primary 
  - (5-1) -> *similarly* (Expression) -> Primary
