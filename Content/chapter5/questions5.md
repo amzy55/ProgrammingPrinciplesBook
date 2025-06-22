@@ -10,7 +10,7 @@
 - Logic errors: Errors found by the programmer looking for the causes of erroneous results.
 
  2. ### What kinds of errors can we ignore in student programs?
- Trivial errors that don’t interfere with learning goals, such as minor formatting issues or style warnings.
+ Trivial errors that donï¿½t interfere with learning goals, such as minor formatting issues or style warnings.
 
  3. ### What guarantees should every completed project offer?
  A completed project should be correct, robust (handles errors), maintainable, and well-documented.
@@ -21,7 +21,7 @@
  - Comment your code well to help with potential logical errors.
 
  5. ### Why do we hate debugging?
-  Because it’s time-consuming and frustrating.
+  Because itï¿½s time-consuming and frustrating.
 
  6. ### What is a syntax error? Give five examples.
   Syntax errors violate the grammar of the language. Examples:
@@ -60,11 +60,13 @@
  11. ### How do you know if a result is plausible? What techniques do you have to answer such questions?
  Use approximate reasoning, known test values, or comparison to other sources.
 
- 12. ### Compare and contrast having the caller of a function handle a run-time error vs. the called function’s handling the run-time error.
- - Caller handling: more flexible, lets caller decide response.
-- Called function handling: immediate, can simplify code but less flexible.
+ 12. ### Compare and contrast having the caller of a function handle a run-time error vs. the called functionï¿½s handling the run-time error.
+- Caller handling: more flexible, lets the caller decide how to respond, but can make error checking unnecessarily verbose, as well as potentially not making it clear that the function can return wrong results.
+- Called function handling: immediate, can simplify code and the caller has a guarantee that the results they're getting are adequate, but it's less flexible, because a caller may want to have different behaviors depending on the error.
+
+Bottom line is that it depends, but the good practice is to handle the errors inside the function, unless there is a specific reason not to.
  
- 13. ### Why is using exceptions a better idea than returning an “error value”?
+ 13. ### Why is using exceptions a better idea than returning an ï¿½error valueï¿½?
  Because error values can be ignored or misused. Exceptions separate error handling from normal code and enforce handling.
  
  14. ### How do you test if an input operation succeeded?
